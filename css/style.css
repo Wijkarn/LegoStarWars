@@ -1,0 +1,35 @@
+h1 {
+    margin-inline: auto;
+    text-align: center;
+    width: fit-content;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 0; */
+    border: 1px red solid;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a img {
+    width: 100%;
+}
+
+main a {
+    flex-basis: 25%;
+    height: fit-content;
+    padding: 0;
+    text-decoration: none;
+    margin: 1%;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}

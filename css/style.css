@@ -1,14 +1,20 @@
-h1 {
+* {
+    padding: 0;
+    margin: 0;
+    /* border: 0; */
+    /* border: 1px red solid; */
+    font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2 {
     margin-inline: auto;
     text-align: center;
     width: fit-content;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    /* border: 0; */
-    border: 1px red solid;
+a {
+    color: black;
 }
 
 main {
@@ -19,17 +25,37 @@ main {
 
 a img {
     width: 100%;
+    border-radius: 2vw;
 }
 
 main a {
     flex-basis: 25%;
     height: fit-content;
-    padding: 0;
-    text-decoration: none;
     margin: 1%;
+    text-decoration: none;
 }
 
-h2 {
-    text-align: center;
-    color: black;
+ul {
+    margin-inline: auto;
+    width: fit-content;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.listImg {
+    max-width: 400px;
+}
+
+.instructions {
+    width: fit-content;
+}
+
+.listDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
